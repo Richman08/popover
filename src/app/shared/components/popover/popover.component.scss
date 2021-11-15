@@ -1,0 +1,67 @@
+.modal {
+  width: max-content;
+  height: auto;
+
+  .id {
+    color: #858995;
+    margin-bottom: 4px;
+  }
+
+  .main-title {
+    margin-bottom: 24px;
+  }
+
+  .period-agreed-block {
+    display: flex;
+    margin-bottom: 17px;
+
+    .period {
+      width: 49%;
+
+      .title {
+        color: #858995;
+      }
+
+      .range {
+      }
+    }
+
+    .agreed {
+      width: 49%;
+
+      .title {
+        color: #858995;
+      }
+
+      .count {
+        color: #50D13B;
+        margin: 2px 0 0 0;
+      }
+    }
+  }
+
+  .read-error-block {
+    display: flex;
+
+    .read {
+      width: 49%;
+
+      .title {
+      }
+
+      .range {
+        color: #0B132B;
+      }
+    }
+
+    .error {
+      .title {
+      }
+
+      p {
+        color: #DE4646;
+        margin: 0;
+      }
+    }
+  }
+}
